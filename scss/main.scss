@@ -1,5 +1,6 @@
 @import "config";
 @import "menu";
+@import "mobile";
 
 * {
   box-sizing: border-box;
@@ -118,7 +119,7 @@ main {
     @include ease0out;
 
     &.show {
-      // Slide in from top
+      // Slide in from bottom
       transform: translate3d(0, 0, 0);
     }
 
