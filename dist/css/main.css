@@ -259,7 +259,8 @@ main {
     text-align: center; }
     main .lg-heading {
       line-height: 1;
-      margin-bottom: 1rem; }
+      margin-bottom: 1rem; 
+      font-size:5rem;}
   ul.menu-nav,
   div.menu-branding {
     float: none;
@@ -288,8 +289,8 @@ main {
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(2, 1fr); }  
-  .projects.boxes {
-    font-size: large;
+  #email {
+    font-size: medium;
   }
 }
 
