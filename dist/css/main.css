@@ -288,7 +288,7 @@ main {
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(2, 1fr); }  
-  #email {
+  .projects.boxes {
     font-size: large;
   }
 }
