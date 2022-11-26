@@ -244,11 +244,7 @@ main {
   height: 60px; }
 
 @media screen and (min-width: 1171px) {
-  main {
-    margin: 99px;
-    margin-top: 0;
-    min-height: 0;
-  }
+
   .projects {
     grid-template-columns: repeat(4, 1fr); } 
   }
@@ -291,7 +287,11 @@ main {
  "job3";
     grid-template-columns: 1fr; }
   .projects {
-    grid-template-columns: repeat(2, 1fr); } }
+    grid-template-columns: repeat(2, 1fr); }  
+  #email {
+    font-size: large;
+  }
+}
 
 @media screen and (max-width: 500px) {
   main#home h1 {
